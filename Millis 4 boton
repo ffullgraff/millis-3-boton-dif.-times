@@ -115,7 +115,7 @@ if( buttonState2==HIGH ) // no need to check for previous state, in this specifi
         }
     }
     //  Aqui el Final que me da problemas
-    if( buttonState4==HIGH ) // no need to check for previous state, in this specific case
+    if( buttonState3==HIGH ) // no need to check for previous state, in this specific case
     {
         previousMillis3 = currentMillis;
         digitalWrite(RLY_3, HIGH);
@@ -158,3 +158,8 @@ if( buttonState2==HIGH ) // no need to check for previous state, in this specifi
     
     }
     }    } 
+
+ 
+   
+     
+       
